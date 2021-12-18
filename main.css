@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0%;
+    padding: 1px;
+    text-align: center;
+    background-color: #142a1e;
+}
+
+ul {
+    height: 25%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+a:hover {
+    color: #6a5970;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 2s;
+    font-size: 108%;
+}
+
+a {
+    color: #eb9292;
+    text-decoration: none;
+    transition: all 1s ease 0s
+}
+
+.ImgInicial {
+    margin: 0%;
+    width: 100%;
+    height: 490px;
+}
+
+.RunaPrincipal {
+    color: white;
+    width: 35%;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagens {
+    display: block;
+    margin-left: 29%;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 25px;
+    position: relative;
+
+}
+
+.champions {
+    padding: 5px;
+    height: 65px;
+    height: 65px;
+}
+
+.champions:hover {
+    cursor: pointer;
+    transform: translateY(5px) translateX(5px);
+    transition: all 1s ease 0s;
+}
+
+.Jax {
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+.video{
+margin-left: 67%;
+}
+
+footer {
+    margin: 0%;
+    margin-top: 50px;
+    background-color: #142a1e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+p{
+    padding: 2px;
+    color: white;
+}
